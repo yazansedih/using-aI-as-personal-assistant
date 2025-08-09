@@ -134,6 +134,94 @@ const categories = [
 
 const featuredTools = [
     {
+        id: 'chatgpt',
+        name: 'ChatGPT',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'Advanced conversational AI by OpenAI that can assist with writing, coding, analysis, and creative tasks. One of the most popular AI assistants.',
+        features: ['Text Generation', 'Code Assistance', 'Analysis', 'Creative Writing'],
+        rating: 4.8,
+        logo: 'C',
+        link: 'https://chat.openai.com'
+    },
+    {
+        id: 'claude',
+        name: 'Claude',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'Anthropic\'s AI assistant focused on being helpful, harmless, and honest. Excellent for complex reasoning and analysis tasks.',
+        features: ['Reasoning', 'Analysis', 'Writing', 'Code Review'],
+        rating: 4.7,
+        logo: 'C',
+        link: 'https://claude.ai'
+    },
+    {
+        id: 'manus',
+        name: 'Manus',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'Advanced AI agent platform for autonomous task completion and workflow automation. Capable of complex multi-step operations.',
+        features: ['Task Automation', 'Workflow Management', 'Multi-step Operations', 'Agent Capabilities'],
+        rating: 4.6,
+        logo: 'M',
+        link: 'https://manus.chat'
+    },
+    {
+        id: 'gemini',
+        name: 'Gemini',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'Google\'s multimodal AI model that can understand and generate text, images, and code. Integrated with Google services.',
+        features: ['Multimodal AI', 'Google Integration', 'Code Generation', 'Image Understanding'],
+        rating: 4.5,
+        logo: 'G',
+        link: 'https://gemini.google.com'
+    },
+    {
+        id: 'deepsik',
+        name: 'DeepSeek',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'Advanced AI model focused on reasoning and problem-solving capabilities. Excellent for technical and analytical tasks.',
+        features: ['Deep Reasoning', 'Problem Solving', 'Technical Analysis', 'Code Generation'],
+        rating: 4.4,
+        logo: 'D',
+        link: 'https://chat.deepseek.com'
+    },
+    {
+        id: 'askaichat',
+        name: 'Ask AI Chat',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'User-friendly AI chat interface with multiple model options and customizable conversation settings.',
+        features: ['Multiple Models', 'Custom Settings', 'Chat Interface', 'Model Switching'],
+        rating: 4.2,
+        logo: 'A',
+        link: 'https://askaichat.app'
+    },
+    {
+        id: 'lovable',
+        name: 'Lovable',
+        category: 'technical',
+        categoryName: 'Technical Tools',
+        description: 'AI-powered full-stack development platform that generates complete applications from natural language descriptions.',
+        features: ['Full-stack Development', 'App Generation', 'Natural Language', 'Deployment'],
+        rating: 4.5,
+        logo: 'L',
+        link: 'https://lovable.dev'
+    },
+    {
+        id: 'groq',
+        name: 'Groq',
+        category: 'conversational',
+        categoryName: 'Conversational & AI Agents',
+        description: 'Ultra-fast AI inference platform providing lightning-speed responses for various AI models and applications.',
+        features: ['Fast Inference', 'Multiple Models', 'API Access', 'High Performance'],
+        rating: 4.6,
+        logo: 'G',
+        link: 'https://groq.com'
+    },
+    {
         id: 'clideo',
         name: 'Clideo',
         category: 'video',

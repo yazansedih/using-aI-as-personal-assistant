@@ -1,4 +1,4 @@
-# Using AI as a Personal Assistant
+# AI Tools Directory
 
 A comprehensive, modern, and responsive website showcasing AI tools across multiple categories. Built with HTML5, CSS3, and JavaScript, featuring a clean design, interactive functionality, and mobile-first responsive layout.
 
@@ -388,11 +388,14 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Support
 
 For questions, issues, or contributions:
-- Create an issue on GitHub
-- Contact: contact@aitoolsdirectory.com
-- Documentation: This README file
+- Email: contact@aitoolsdirectory.com
+- Website: www.aitoolsdirectory.com
+
 
 ---
 
 **Built with ❤️ for the AI community**
+
+
+
 
