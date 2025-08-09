@@ -1,0 +1,92 @@
+You are a professional web developer tasked with creating a comprehensive AI Tools Directory website. Create a modern, responsive, and professional website that showcases AI tools across multiple categories.
+
+**Website Requirements:**
+
+**1. Design & Structure:**
+- Modern, clean design with professional color scheme
+- Responsive layout that works on all devices
+- Header with navigation and search functionality
+- Hero section introducing the AI Tools Directory
+- Category-based organization with visual icons
+- Tool cards with hover effects and detailed information
+- Footer with contact information and social links
+
+**2. Categories to Include:**
+- Conversational & AI Agents (26+ tools)
+- Resume & Interviews (13+ tools) 
+- Video Tools (17+ tools)
+- Audio Tools (10+ tools)
+- Technical Tools (38+ tools)
+- Image Generation & Editing (14+ tools)
+- Marketing & Plans (17+ tools)
+- Research & Knowledge (9+ tools)
+- Business Management (9+ tools)
+- Translation & Proofreading (6+ tools)
+- Learning & Stories (5+ tools)
+- Visuals & Summaries (6+ tools)
+- Presentations (5+ tools)
+- Interior Design (2+ tools)
+- AI Detection (3+ tools)
+- Prompt Generation (4+ tools)
+
+**3. Specific Tools to Feature:**
+Include these notable tools with proper descriptions:
+- Clideo (Online Video Tools)
+- Vmake AI
+- Pika (AI Video)
+- Visily (AI-powered UI design)
+- Imagen (AI Post-Production Workflow)
+- Suno (AI Music)
+- Runway (Human imagination tools)
+- RoomGPT (Interior Design)
+- MyLens (Data visualization)
+- Trupeer (AI-Powered Product Videos)
+- Napkin AI (Visual storytelling)
+- Motion (Visual stories)
+- ToolBaz (AI Writer Tools)
+- Cursor (AI Code Editor)
+- FlutterFlow (App building)
+- Replit (Build apps with AI)
+
+**4. Features to Include:**
+- Search and filter functionality
+- Tool ratings and reviews capability
+- "Explore" buttons for each category
+- Tool descriptions and use cases
+- Links to tool websites (use placeholder links)
+- Contact form for suggestions
+- Newsletter signup
+- Social media integration
+
+**5. Technical Specifications:**
+- Use HTML5, CSS3, and JavaScript
+- Implement CSS Grid and Flexbox for layout
+- Include CSS animations and transitions
+- Ensure cross-browser compatibility
+- Optimize for SEO with proper meta tags
+- Make it mobile-first responsive
+- Include loading states and error handling
+
+**6. Content Requirements:**
+- Professional copy for each section
+- Clear tool descriptions (50-100 words each)
+- Category descriptions explaining use cases
+- About section explaining the directory's purpose
+- Contact information and social links
+
+**7. Deployment Instructions:**
+- Provide step-by-step deployment guide for:
+  - GitHub Pages
+  - Netlify
+  - Vercel
+- Include instructions for custom domain setup
+- Provide maintenance and update guidelines
+
+**Additional Notes:**
+- Focus on user experience and intuitive navigation
+- Ensure fast loading times
+- Include accessibility features (alt tags, proper headings, etc.)
+- Make the design scalable for adding new tools
+- Include analytics tracking setup instructions
+
+Generate complete, production-ready code with all necessary files (HTML, CSS, JavaScript) and deployment instructions.
