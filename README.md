@@ -1,4 +1,4 @@
-# AI Tools Directory
+# Using AI as a Personal Assistant
 
 A comprehensive, modern, and responsive website showcasing AI tools across multiple categories. Built with HTML5, CSS3, and JavaScript, featuring a clean design, interactive functionality, and mobile-first responsive layout.
 
