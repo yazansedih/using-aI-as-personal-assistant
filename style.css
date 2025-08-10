@@ -6,23 +6,23 @@
 }
 
 :root {
-    /* Color Palette */
-    --primary-color: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #818cf8;
-    --secondary-color: #f59e0b;
-    --accent-color: #10b981;
-    --background-color: #ffffff;
-    --surface-color: #f8fafc;
+    /* New Color Palette */
+    --primary-color: #4a90e2;
+    --primary-dark: #357ABD;
+    --primary-light: #7aaFCA;
+    --secondary-color: #f5a623;
+    --accent-color: #50e3c2;
+    --background-color: #f4f7f9;
+    --surface-color: #ffffff;
     --card-background: #ffffff;
-    --text-primary: #1e293b;
-    --text-secondary: #64748b;
-    --text-muted: #94a3b8;
-    --border-color: #e2e8f0;
-    --shadow-light: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --text-primary: #333333;
+    --text-secondary: #555555;
+    --text-muted: #888888;
+    --border-color: #e0e0e0;
+    --shadow-light: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-medium: 0 4px 8px rgba(0,0,0,0.1);
+    --shadow-large: 0 10px 20px rgba(0,0,0,0.1);
+    --shadow-xl: 0 20px 40px rgba(0,0,0,0.15);
     
     /* Typography */
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -1149,4 +1149,118 @@ section {
     white-space: nowrap;
     border: 0;
 }
+
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    --background-color: #1a1a2e;
+    --surface-color: #16213e;
+    --card-background: #0f3460;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --text-muted: #808080;
+    --border-color: #0a1128;
+    --shadow-light: 0 2px 4px rgba(0,0,0,0.2);
+    --shadow-medium: 0 4px 8px rgba(0,0,0,0.3);
+    --shadow-large: 0 10px 20px rgba(0,0,0,0.4);
+    --shadow-xl: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.dark-mode .header {
+    background: rgba(22, 33, 62, 0.95);
+}
+
+.dark-mode .search-input {
+    background: var(--surface-color);
+    color: var(--text-primary);
+}
+
+.dark-mode .nav-link {
+    color: var(--text-secondary);
+}
+
+.dark-mode .nav-link:hover {
+    background: rgba(74, 144, 226, 0.2);
+}
+
+.dark-mode .category-card, .dark-mode .tool-card {
+    background: var(--card-background);
+    border-color: var(--border-color);
+}
+
+.dark-mode .category-count, .dark-mode .tool-feature {
+    background: var(--surface-color);
+}
+
+.dark-mode .filter-tab {
+    background: var(--card-background);
+    border-color: var(--border-color);
+    color: var(--text-secondary);
+}
+
+.dark-mode .filter-tab:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.dark-mode .filter-tab.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.dark-mode .newsletter {
+    background: var(--primary-dark);
+}
+
+.dark-mode .newsletter-form input {
+    background: var(--surface-color);
+    color: var(--text-primary);
+}
+
+.dark-mode .contact-form {
+    background: var(--surface-color);
+}
+
+.dark-mode .social-link {
+    background: var(--surface-color);
+    color: var(--text-secondary);
+}
+
+.dark-mode .social-link:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.dark-mode .footer {
+    background: var(--card-background);
+}
+
+.dark-mode .footer-newsletter input {
+    background: var(--surface-color);
+    color: var(--text-primary);
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    transition: var(--transition-fast);
+}
+
+.dark-mode-toggle:hover {
+    color: var(--primary-color);
+    background: rgba(74, 144, 226, 0.1);
+}
+
+.dark-mode-toggle i {
+    pointer-events: none; /* Prevent icon from interfering with click event */
+}
+
 
